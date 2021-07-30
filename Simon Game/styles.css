@@ -1,0 +1,132 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("Open 24 Display St.ttf");
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #01050a;
+}
+
+#level-title {
+  font-family: "Alegreya SC", serif;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  margin: 5%;
+  margin-top: 50px;
+  color: #fef2bf;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+
+  border-radius: 80%;
+}
+
+#row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1em;
+}
+
+.score p {
+  font-family: myFirstFont;
+  font-weight: 700;
+  font-size: 5em;
+}
+
+#row3 {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  border: 10px solid red;
+}
+
+.green {
+  border: 10px solid #39ff14;
+}
+
+.blue {
+  border: 10px solid #03e9f4;
+  margin-right: 200px;
+}
+
+.yellow {
+  border: 10px solid yellow;
+}
+
+.purple {
+  border: 10px solid #fe019a;
+  margin-left: 20px;
+}
+
+.bgcolor {
+  background-color: white;
+}
+
+.red:hover {
+  background-color: red;
+  box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 200px red;
+}
+
+.yellow:hover {
+  background-color: yellow;
+  box-shadow: 0 0 5px yellow, 0 0 25px yellow, 0 0 50px yellow, 0 0 200px yellow;
+}
+
+.green:hover {
+  background-color: #39ff14;
+  box-shadow: 0 0 5px #39ff14, 0 0 25px #39ff14, 0 0 50px #39ff14,
+    0 0 200px #39ff14;
+}
+
+.blue:hover {
+  background-color: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+
+.purple:hover {
+  background-color: #fe019a;
+  box-shadow: 0 0 5px #fe019a, 0 0 25px #fe019a, 0 0 50px #fe019a,
+    0 0 200px #fe019a;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
